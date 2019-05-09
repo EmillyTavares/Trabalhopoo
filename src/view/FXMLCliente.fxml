@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="conection.FXMLClienteController">
+   <children>
+      <Label layoutX="116.0" layoutY="64.0" text="Nome:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="102.0" layoutY="22.0" prefHeight="27.0" prefWidth="74.0" text="Numero:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="127.0" layoutY="102.0" text="Cpf:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="122.0" layoutY="160.0" text="Sexo:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="textNome" layoutX="226.0" layoutY="65.0" />
+      <TextField fx:id="textNumero" layoutX="226.0" layoutY="23.0" />
+      <TextField fx:id="textCpf" layoutX="226.0" layoutY="103.0" />
+      <RadioButton fx:id="rbM" layoutX="241.0" layoutY="163.0" mnemonicParsing="false" text="M">
+         <font>
+            <Font size="14.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="rbF" layoutX="318.0" layoutY="163.0" mnemonicParsing="false" text="F">
+         <font>
+            <Font size="14.0" />
+         </font></RadioButton>
+      <Button fx:id="salvar" layoutX="251.0" layoutY="223.0" mnemonicParsing="false" onAction="#salvar" text="Salvar">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
